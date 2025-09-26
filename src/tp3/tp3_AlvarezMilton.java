@@ -27,8 +27,8 @@ public class tp3_AlvarezMilton {
         /* Ejercicio 3*/
         Libro l = new Libro("1984", "George Orwell", 1949);
         l.mostrarInfo();
-        l.setAnioPublicacion(-10); // Inválido
-        l.setAnioPublicacion(2020); // Válido
+        l.setAnioPublicacion(-10);
+        l.setAnioPublicacion(2020); 
         l.mostrarInfo();
         
         /* Ejercicio 4*/
@@ -45,7 +45,7 @@ public class tp3_AlvarezMilton {
         
         /* Ejercicio 5*/
         NaveEspacial n = new NaveEspacial("Apolo", 50);
-        n.avanzar(100); // sin recargar
+        n.avanzar(100);
         n.recargarCombustible(40);
         n.despegar();
         n.avanzar(50);
